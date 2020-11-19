@@ -1,0 +1,3 @@
+.DS_Store
+*.pyc
+django313/db.sqlite3

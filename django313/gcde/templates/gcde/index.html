@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang=en-US>
+<head>
+    <meta charset=utf-8 />
+    <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1"/>
+    <title>{{ headline }}</title>
+    {% if theme %}<style>
+        * {
+            color: {% if theme == 'rare' %}#DC143C{% endif %}{% if theme == 'well' %}#8B4513{% endif %};
+        }
+    </style>{% endif %}
+</head>
+<body>
+    <h1>{{ headline }}</h1>
+    {% for article in articles %}
+        <h2><a href="{{ article.href }}" title="{{ article.title }}">{{ article.title }}</a></h2>
+        <p><a href="{{ article.href }}" title="{{ article.title }}">{{ article.summary }}</a></p>
+    {% endfor %}
+</body>
+</html>
