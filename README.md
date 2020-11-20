@@ -12,6 +12,7 @@ You'll end up with a virtual environment containing a Django 3.1.3 project with 
 $ pipenv install
 $ pipenv shell
 $ cd django313
+$ python manage.py migrate
 $ python manage.py runserver
 ```
 ... and you should see something like:
