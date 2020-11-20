@@ -5,7 +5,7 @@ You'll end up with a virtual environment containing a Django 3.1.3 project with 
 
 1. Copy the project onto your machine from GitHub.
 
-1. From the command line of your terminal app, `cd` into the `gannett-developer` directory created when you copied the project to your machine. If you see a `Pipfile` you're in the right directory!
+1. From the command line of your terminal app, `cd` into the `gannett-developer-candidate-exercise` directory created when you copied the project to your machine. If you see a `Pipfile` you're in the right directory!
 
 1. Then from the command line, do the following:
 ```
